@@ -1,0 +1,111 @@
+.pricing__wrapper {
+  text-align: center;
+}
+
+.pricing__wrapper .title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.pricing__wrapper .title span {
+  color: var(--nextColor);
+}
+
+.pricing__wrapper .paragraph {
+  font-size: 1.1rem;
+  color: var(--headingColor);
+  line-height: 28px;
+  width: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.pricing__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.pricing_item {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 33%;
+  background: var(--textColor);
+}
+
+.pricing_card {
+  padding: 30px;
+  border-bottom: 1px solid #d3cef2;
+  text-align: center;
+}
+
+.pricing_card .title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.pricing_card .pricing {
+  font-size: 1.4rem;
+}
+
+.pricing_card .pricing span {
+  font-size: 1rem;
+  color: red;
+}
+
+.pricing_item .pricing__services {
+  padding: 20px;
+}
+
+.pricing_item .pricing__services .menu__services .li__nav {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  color: #666;
+  line-height: 28px;
+}
+
+.pricing_item .pricing__services .menu__services .li__nav span i {
+  font-size: 0.7rem;
+}
+
+.pricing__services {
+  text-align: center;
+}
+
+.pricing__services .menuPay {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  color: var(--textColor);
+  background: var(--primaryColor);
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease-in alternate;
+  margin-top: 20px;
+}
+
+.pricing__services .menuPay:hover {
+  background: var(--nextColor);
+  transform: scale(1.1);
+  box-shadow: 5px 6px 10px var(--headingColor);
+  opacity: 0.4s;
+}
+
+.pricing_item02 .pricing_card{
+    background: var(--primaryColor);
+    color: var(--textColor);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.pricing_item02 .pricing__services .menu__services .li__nav span i{
+    color: var(--primaryColor);
+}
+

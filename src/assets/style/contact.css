@@ -1,0 +1,73 @@
+.mySwiper {
+  padding: 20px 0;
+}
+
+.swiper-slide .slide__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide .slide__item:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-slide .slide__img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.swiper-slide .title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.swiper-slide .paragraph {
+  font-size: 1rem;
+  color: #666;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
+
+.swiper-pagination-bullet {
+  background: #333;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007bff;
+}
+
+.slide__item .contractPay {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  color: var(--textColor);
+  background: var(--primaryColor);
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease-in alternate;
+  margin-top: 20px;
+}
+
+.slide__item .contractPay:hover {
+  background: var(--nextColor);
+  transform: scale(1.1);
+  box-shadow: 5px 6px 10px var(--headingColor);
+  opacity: 0.4s;
+}

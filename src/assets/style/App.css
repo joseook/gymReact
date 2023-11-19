@@ -2,11 +2,54 @@
 
 :root {
   --primaryColor: #458daa;
-  --nextColor: #fef08a;
+  --nextColor: red;
   --headingColor: #172554;
+  --textColor: #fff;
   --bg: linear-gradient(
     153deg,
     rgba(73, 75, 209, 1) 24%,
     rgba(54, 54, 75, 1) 77%
   );
+  --nextColor02: #fef08a;
 }
+
+/* WEBSITE CONFIG */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+p{
+  font-family: 'Sarala', sans-serif;
+}
+
+

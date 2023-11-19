@@ -1,0 +1,104 @@
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    backdrop-filter: blur(.4px) brightness(90%);
+    z-index: 100;
+}
+
+.nav__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo__img{
+    background: var(--bg);
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__img img{
+    width: 100%;
+}
+
+.logo .title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--headingColor);
+}
+
+.menu{
+    position: relative;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+
+.nav__item a{
+    color: var(--headingColor);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.nav__item a:hover{
+    color: var(--nextColor);
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.button-nav{
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.register_btn,
+.login-btn{
+    border:none;
+    outline: none;
+    padding: 5px 20px;
+    color: var(--textColor);
+    background: var(--primaryColor);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .4s ease-in alternate;
+}
+
+.register_btn:hover,
+.login-btn:hover{
+    background: var(--nextColor);
+    transform: scale(1.1);
+    box-shadow: 5px 6px 10px rgba(0,0,0,0.8);
+    opacity: .4s;
+}
+
+.hamb__menu{
+    color: var(--headingColor);
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+}

@@ -1,0 +1,52 @@
+.trainer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+  align-items: center;
+}
+
+.trainer_img img {
+  width: auto;
+  height: 50vh;
+  border-radius: 5px;
+}
+
+.trainer__content .title {
+  font-size: 2.5rem;
+  color: var();
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.trainer__content .title span {
+  color: var(--primaryColor);
+}
+
+.trainer__content .paragraph {
+  color: var(--headingColor);
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.trainer__content .trainerStart {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  color: var(--textColor);
+  background: var(--primaryColor);
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease-in alternate;
+}
+
+.trainer__content .trainerStart:hover {
+  background: var(--nextColor);
+  transform: scale(1.1);
+  box-shadow: 5px 6px 10px var(--headingColor);
+  opacity: 0.4s;
+}
