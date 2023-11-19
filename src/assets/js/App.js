@@ -8,6 +8,7 @@ import Trainer from "../components/DSG/Trainer";
 import Pricing from "../components/DSG/Pricing";
 import Contact from "../components/DSG/Contact";
 import Footer from "../components/DSG/Footer";
+import Wlos from "../components/DSG/Wlos";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
     <Trainer />
     <Pricing />
     <Contact />
+    <Wlos />
     <Footer />
   </>
 }

@@ -1,3 +1,8 @@
+.trainer{
+  background: var(--bg);
+  border-radius: 10px 10px 0px 0px;
+}
+
 .trainer__wrapper {
   display: flex;
   justify-content: space-between;
